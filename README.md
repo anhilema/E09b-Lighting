@@ -3,7 +3,7 @@
 The purpose of this exercise is for you to explore 3D lighting and camera movement in Godot. There are many steps, and some of the concepts are a little complicated, so I would recommend that you stop and test frequently. I have tried to be as clear as possible.
 
 This exercise is loosely based on the How to light a 3d scene in Godot (3d tutorial) by GDQuest. The YouTube video is
-available here. (Links to an external site.)
+[available here](https://www.youtube.com/watch?v=iamttSmxA2I).
 
 
 This exercise is different from the GDQuest tutorial in distinct ways, so please follow the directions I provide. The video may help you to visualize anything you might find confusing, however.
@@ -65,8 +65,6 @@ func _physics_process(delta):
 		zoom_speed *= -1
 ```
 
-Run the scene. The result should look something like this: ![Cabin example](https://raw.githubusercontent.com/BL-MSCH-C220-S20/E09b-Lighting/Master/cabin.gif)
-
-
+Run the scene. The result should look something like this: ![Cabin example](https://raw.githubusercontent.com/BL-MSCH-C220-S20/E09b-Lighting/master/cabin.gif)
 
 Save and commit your changes, Push the repository back to GitHub, and turn in a link to your repository on Canvas.
