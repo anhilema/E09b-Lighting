@@ -38,11 +38,11 @@ Under Background->Mode, select Sky, and under Background->Sky, select New Panora
 
 We actually only want the colors of the skybox reflecting on our model, so in Background->Mode, instead select Color+Sky. In Background->Color, type in R=68, G=68, B=68, A=255.
 
-In Ambient Light->Color, type in R=95, G=33, B=217, A=255, and set Ambient Light->Sky Contribution=0.5
+In Ambient Light->Color, type in R=95, G=33, B=217, A=255, set Ambient Light->Energy=0.2, and set Ambient Light->Sky Contribution=0.5
 
 Set ToneMap->Mode to Aces and Ss Reflections->Enabled to On. There is a thorough discussion of ToneMap in the GDQuest video—it adjusts how the exposure and white balance are calculated. SS reflections allows metallic surfaces to be reflective.
 
-We will now experiment with two different types of light sources. Back in the Scene panel, right-click on the World node and Add Child Node. Select DirectionalLight. In the Inspector, change Spatial->Transform->Translation: x=-15, y=10, z=20. Spatial->Rotation Degrees: x=12, y=140. The arrow should be pointing back toward where the sun was in the Venice Sunset panorama (indicating where the directional light is coming from). To make it look more like a sunset, change Light->Light->Color: R=235, G=104, B=8, and change Light->Light->Energy=0.6
+We will now experiment with two different types of light sources. Back in the Scene panel, right-click on the World node and Add Child Node. Select DirectionalLight. In the Inspector, change Spatial->Transform->Translation: x=-15, y=10, z=20. Spatial->Rotation Degrees: x=-10, y=-40, z=-25. The arrow should be pointing back toward where the sun was in the Venice Sunset panorama (indicating where the directional light is coming from). To make it look more like a sunset, change Light->Light->Color: R=235, G=104, B=8, and change Light->Light->Energy=0.6
 
 Right-click on the World node and Add Child Node. Select OmniLight. In the Inspector, change Spatial->Transform->Translation: x=1.711, y=4.333, z=0.268. Change Light->Light->Color: R=197, G=188, B=109. Change OmniLight->Omni->Attenuation=2 (drag down the line)
 
