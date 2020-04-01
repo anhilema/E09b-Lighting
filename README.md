@@ -14,7 +14,7 @@ Please Fork and Clone the repository to your computer. In the folder that is cre
 
 In World.tscn, I have provided a starting place for the exercise: the scene contains a parent Spatial node (named World), a Position3D node, and a Spatial node (named Pivot). I have also included several files in the Assets folder, which we will use during this exercise.
 
-In the Assets folder, you will find scene.gltf. This is a 3D model of a small cabin (Links to an external site.) created by luyssport and released under a CC Attribution-NonCommerical-ShareAlike license. This is the model we will use for exploring how light sources work in Godot.
+In the Assets folder, you will find scene.gltf. This is a [3D model of a small cabin](https://sketchfab.com/3d-models/gr-5df64141235040749103749123e43010) created by luyssport and released under a CC Attribution-NonCommerical-ShareAlike license. This is the model we will use for exploring how light sources work in Godot.
 
 The first step is to tell Godot how to import the scene. In the FileSystem panel, highlight res://Assets/scene.gltf. Then select the Import tab (in the Scene panel). Under Materials, make sure Location is set to Mesh and Storage is set to Files (.tres). Under Meshes, make sure Light Baking is set to Enable. You should then push the Reimport button at the bottom of the panel.
 
