@@ -65,6 +65,6 @@ func _physics_process(delta):
 		zoom_speed *= -1
 ```
 
-Run the scene. The result should look something like this: ![Cabin example](https://raw.githubusercontent.com/BL-MSCH-C220-S20/E09b-Lighting/master/cabin.gif)
+Run the scene. The result should look something like this: ![Cabin example](https://github.com/BL-MSCH-C220-S20/E09b-Lighting/blob/master/cabin.gif)
 
 Save and commit your changes, Push the repository back to GitHub, and turn in a link to your repository on Canvas.
